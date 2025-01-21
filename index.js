@@ -33,7 +33,7 @@ const{name:city,
     main:{temp,humidity},
     weather:[{description,id}]}=data;
 card.textContent="";
-card.style.display="block";
+card.style.display="flex";
 const cityDisplay=document.createElement("h1");
 const tempDisplay=document.createElement("p");
 const humidityDisplay=document.createElement("p");
